@@ -1,8 +1,8 @@
 # Maintainer: Barnabé di Kartola <barnabedikartola@gmail.com>
 
-pkgname=biglinux-package-template
-pkgdesc="Package template for biglinux"
-# depends=('')
+pkgname=biglinux-gkrellm
+pkgdesc="Meta Package from gkrellm for biglinux"
+depends=('gkrellm' 'gkrellm-themes')
 # makedepends=('')
 # conflicts=('')
 pkgver=$(date +%y.%m.%d)

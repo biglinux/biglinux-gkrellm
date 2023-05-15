@@ -1,0 +1,10 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = biglinux-gkrellm
+
+[Action]
+Description = Updates the user gkrellm
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/biglinux-gkrellm

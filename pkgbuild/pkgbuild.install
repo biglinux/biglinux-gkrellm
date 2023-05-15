@@ -4,9 +4,9 @@
 #}
 
 ## arg 1:  the new package version
-#post_install() {
-    # do something here
-#}
+post_install() {
+    /usr/share/libalpm/scripts/biglinux-gkrellm
+}
 
 ## arg 2:  the old package version
 #pre_upgrade() {
