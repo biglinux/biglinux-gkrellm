@@ -2,7 +2,7 @@
 
 pkgname=biglinux-gkrellm
 pkgdesc="Meta Package from gkrellm for biglinux"
-depends=('gkrellm' 'gkrellm-themes')
+depends=('gkrellm' 'gkrellm-themes' 'rsync')
 # makedepends=('')
 # conflicts=('')
 pkgver=$(date +%y.%m.%d)
